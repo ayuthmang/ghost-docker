@@ -6,7 +6,9 @@
 MYSQL_ROOT_PASSWORD=<SUPER_SECRET_PASS>
 ```
 
-2. Edit nginx config file in `nginx/conf/ghost.conf` on section `server_name` to your domain name for example my domain name is ghost.local
+2. Edit ghost url in file `docker-compose.yml` in `url` to `http://life.ghost.local.
+
+3. Edit nginx config file in `nginx/conf/ghost.conf` on section `server_name` to your domain name for example my domain name is ghost.local
 
 ```
 server {
@@ -18,10 +20,10 @@ server {
 }
 ```
 
-3. Run the environment
+4. Run the environment
 
 ```bash
 $ docker-compose up -d
 ```
 
-4. Access to your url.
+5. Access to your url.
