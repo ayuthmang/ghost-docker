@@ -30,7 +30,7 @@ services:
       - ./nginx/log:/var/log/nginx
     ports:
       - 80:80
-      # - 443:443
+      # - 443:443 # for some os failed to start because 443 is reserved
       
   mysql:
     container_name: mysql
