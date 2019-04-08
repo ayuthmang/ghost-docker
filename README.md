@@ -1,6 +1,6 @@
 ## How to use ?
 
-1. Create a .env file in root project folder. with
+1. Create a `.env` file in root project folder and put
 
 ```
 MYSQL_ROOT_PASSWORD=<SUPER_SECRET_PASS>
