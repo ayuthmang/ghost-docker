@@ -26,4 +26,4 @@ server {
 $ docker-compose up -d
 ```
 
-5. Access to your url http://ghost.local
+5. Access to your url for example my url is `http://ghost.local`
